@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+ 
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(39,3,70);
+    background: linear-gradient(45deg, rgba(39,3,70,1) 0%, rgba(11,41,28,0.9794292717086834) 87%);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.left-login{
+    display: flex;
+    width: 50vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: #92E3A9;
+}
+
+.right-login{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: #92E3A9;
+}
+
+.cardbox-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 0 2px  black;
+    min-width: 750px;
+    min-height: 750px;
+    border-radius: 12px;
+    background: #19062a;
+}
+
+.login-title{
+    padding: 10px;
+}
+
+
+.text-field{
+    padding-bottom: 35px;
+}
+
+input{
+    height: 60%;
+    width: 100%;
+    border-radius: 20px;
+    outline: none;
+    border-spacing: 5rem;
+    box-sizing: border-box;
+    padding: 5px 0 7px 8px;
+
+}
+
+.btn-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 300px;
+    border-radius: 30px;
+    cursor: pointer;
+    pointer-events: fill;
+    color: #92E3A9;
+    background: linear-gradient(45deg, rgba(39,3,70,1) 0%, rgba(11,41,28,0.9794292717086834) 87%);
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.5s;
+    outline: none;
+}
+
+button:hover{
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px;
+}
+
+label{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    padding: 5px;
+}
+
+.fgt-psw-sng-up{
+    display: flex;
+    color: #92E3A9;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: #92E3A9;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.5s;
+    outline: none;
+}
+
+a:hover{
+    letter-spacing: 0.25em;
+}
